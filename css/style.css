@@ -1,0 +1,48 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Noto+Sans+KR:wght@400;500;700&family=Oswald&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline-style: none; */
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Noto Sans KR', 'NotoSans', 'Titillium Web', sans-serif;
+  font-size: 15px;
+  color: #222;
+  line-height: 1.4;
+}
+/* 공통 클래스 */
+
+.inner {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 1401px;
+  margin: 0 atuo;
+}
+
+/* 고정메뉴 */
+.fix-wrap {
+  position: fi;
+}
