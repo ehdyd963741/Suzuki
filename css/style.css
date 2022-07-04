@@ -44,5 +44,35 @@ body {
 
 /* 고정메뉴 */
 .fix-wrap {
-  position: fi;
+  position: fixed;
+  right: 0;
+  top: 0;
+  display: block;
+  z-index: 99999;
 }
+
+/* 레이아웃 */
+.wrap {
+  position: relative;
+  display: block;
+}
+
+/* header */
+.header{
+  position: relative;
+  display: block;
+  z-index: 9999;
+  /* overflow: hidden; */
+}
+.header .inner{
+  position: relative;
+  display: block;
+  height: 54px;
+}
+
+/* visual */
+/* site-map */
+/* benefits */
+/* vestgoods */
+/* news-event */
+/* footer */
