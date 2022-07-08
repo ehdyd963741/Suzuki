@@ -63,13 +63,16 @@ body {
   position: relative;
   display: block;
 }
-
+body{
+  background-color: #666;
+}
 /* header */
 .header{
   position: relative;
   display: block;
   z-index: 9999;
   /* overflow: hidden; */
+  background-color: #fff;
 }
 
 .header .inner{
@@ -92,18 +95,20 @@ body {
 .gnb {
   position: relative;
   display: block;
-  top: 25%;
+  top:0;
 }
 .menu {
   position: absolute;
+  top: 0;
   left: 50%;
-  transform: translate(-75%, -50%);
+  transform: translateX(-75%);
   height: 100%;
-  /* top: 50%; */
   display: block;
+  font-weight: 800;
   white-space: nowrap;
   font-size: 0;
 }
+
 .menu>li {
   position: relative;
   display: inline-block;
@@ -112,32 +117,32 @@ body {
   position: relative;
   display: block;
   height: 52px;
-  color: #222;
+  line-height: 52px;
+  color: #000;
   text-align: left;
   font-size: 16px;
-  line-height: 24px;
   padding: 0 20px; 
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
-  color: #333;
 }
+
 .submenu {
   position: absolute;
-  left: 30%;
-  top: 70px;
-  transform: translateX(-50%) translateY(10px);
+  left: 100%;
+  top: 54px;
+  transform: translateX(-50%);
   display: block;
   visibility: hidden;
-  min-width: 182px;
+  min-width: 160px;
   opacity: 0;
   transition: all 0.3s;
   background: #fff;
-  border: 1px solid rgba(255, 255, 255, .3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 3px;
-  box-shadow: 0px 0px 10px rgb(0 0 0 / 8%);
-  background-color: #222;
+  background-color: rgba(201, 224, 253, 0.3);
 }
+
 .submenu li {
   position: relative;
   display: block;
@@ -146,20 +151,21 @@ body {
   z-index: 999;
   visibility: visible;
   opacity: 1;
-  transform: translateX(0%) translateY(-10%);
+  top: 54px;
+  /* transform: translateX(0%) translateY(-10%); */
 }
 
 .submenu li a {
   position: relative;
   display: block;
-
-  text-align: center;
+  /* text-align: center; */
+  padding-left: 20px;
+  padding-right: 30px;
   white-space: nowrap;
   font-size: 14px;
-  color: #333;
+  color: #fff;
   font-weight: 400;
   line-height: 46px;
-  border-bottom: 1px solid #eaeaea;
 }
 /* visual */
 /* site-map */
