@@ -45,10 +45,15 @@
   <!--[if lt IE 9]> 
     <script src="js/html5shiv.js"></script>
     <![endif]-->
+  <!-- 딩벳 폰트 -->
+  <link rel="stylesheet" href="css/fontello/css/animation.css">
+  <link rel="stylesheet" href="css/fontello/css/fontello.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
   <!-- 공통  -->
   <script src="js/respond.min.js"></script>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="js/swiper/swiper.min.css">
+  <script src="js/swiper/swiper.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <script src="js/script.js"></script>
 </head>
@@ -72,12 +77,63 @@
                 <li><a href="#">전모델보기</a></li>
                 <li><a href="#">NEW HAYABUSA</a></li>
                 <li><a href="#">NEW KATANA</a></li>
-                <li><a href="#">슈퍼스포츠</a></li>
-                <li><a href="#">스트리트</a></li>
-                <li><a href="#">어드벤처 투어러</a></li>
-                <li><a href="#">스쿠터</a></li>
-                <li><a href="#">오프로드</a></li>
-                <li><a href="#">ATV</a></li>
+                <li>
+                  <a href="#">슈퍼스포츠<i class="fa-solid fa-angle-right ico"></i></a>
+                  <ul class="depth3">
+                    <li><a href="#">GSX-R1000/R 100TH</a></li>
+                    <li><a href="#">GSX-R1000/R BLACK EDITION</a></li>
+                    <li><a href="#">GSX-R125 ABS</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">스트리트<i class="fa-solid fa-angle-right ico"></i></a>
+                  <ul class="depth3">
+                    <li><a href="#">NEW GSX-S1000GT</a></li>
+                    <li><a href="#">NEW GSX-S1000</a></li>
+                    <li><a href="#">SV650X</a></li>
+                    <li><a href="#">SV650</a></li>
+                    <li><a href="#">GSX-S125 ABS</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">어드벤처 투어러<i class="fa-solid fa-angle-right ico"></i></a>
+                  <ul class="depth3">
+                    <li><a href="#">V-STROM1050XT</a></li>
+                    <li><a href="#">V-STROM650XT</a></li>
+                    <li><a href="#">V-STROM250 ABS</a></li>
+                    
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">스쿠터<i class="fa-solid fa-angle-right ico"></i></a>
+                  <ul class="depth3">
+                    <li><a href="#">NEW BURGMAN400 COUPE</a></li>
+                    <li><a href="#">BURGMAN200 ABS</a></li>
+                    <li><a href="#">BURGMAN125 ABS</a></li>
+                    <li><a href="#">SWISH125</a></li>
+                    <li><a href="#">ADDRESS125</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">오프로드<i class="fa-solid fa-angle-right ico"></i></a>
+                  <ul class="depth3">
+                    <li><a href="#">RMX450Z</a></li>
+                    <li><a href="#">RM-Z450</a></li>
+                    <li><a href="#">RM-Z250</a></li>
+                    <li><a href="#">DR-Z125L</a></li>
+                    <li><a href="#">DR-Z70</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">ATV<i class="fa-solid fa-angle-right ico"></i></a>
+                  <ul class="depth3">
+                    <li><a href="#">KINGQUAD 750AXi 4x4 Power Streering</a></li>
+                    <li><a href="#">KINGQUAD 400ASi 4x4</a></li>
+                    <li><a href="#">QUADSPORT Z400</a></li>
+                    <li><a href="#">QUADSPORT Z90</a></li>
+                    <li><a href="#">QUADSPORT Z50</a></li>
+                  </ul>
+                </li>
               </ul>
             </li>
             <li>
@@ -110,7 +166,15 @@
                 <li><a href="#">레이싱 히스토리</a></li>
                 <li><a href="#">스즈키 뮤지엄 아카이브</a></li>
                 <li><a href="#">리뷰</a></li>
-                <li><a href="#">스즈키 온라인</a></li>
+                <li>
+                  <a href="#">스즈키 온라인<i class="fa-solid fa-angle-right ico"></i></a>
+                  <ul class="depth3">
+                    <li><a href="#">스즈키 페이스북</a></li>
+                    <li><a href="#">스즈키 인스타그램</a></li>
+                    <li><a href="#">스즈키 유튜브</a></li>
+                    <li><a href="#">스즈키 블로그</a></li>
+                  </ul>
+                </li>
               </ul>
             </li>
             <li>
@@ -127,45 +191,249 @@
             </li>
           </ul>
         </div>
+
         <div class="col-group">
-          
+          <a>
+            <span href="#" class="raptxt">
+              <i class="icon-user-circle-o"><span class="coltxt">로그인</span></i>
+            </span>
+          </a>
+          <a>
+            <span href="#" class="raptxt">
+              <i class="icon-user-plus"><span class="coltxt">회원가입</span></i>
+            </span>
+          </a>
+          <a>
+            <span href="#" class="raptxt">
+              <i class="icon-mobile"><span class="coltxt">마이페이지</span></i>
+            </a>
+          <a>
+            <span href="#" class="raptxt">
+              <i class="icon-basket"><span class="coltxt">장바구니</span></i>
+            </span>
+          </a>
         </div>
+
       </div>
     </header>
     <!-- visual -->
     <section class="visual">
-
+      <div class="swiper-container sw-visual">
+        <!-- 슬라이드 내용 -->
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#" class="sw-visual-1"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="sw-visual-2"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="sw-visual-3"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="sw-visual-4"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="sw-visual-5"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="sw-visual-6"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="sw-visual-7"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="sw-visual-8"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="sw-visual-9"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="sw-visual-10"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="sw-visual-11"></a>
+          </div>
+        </div>
+        <!-- 슬라이더 좌우 버튼 -->
+        <button class="sw-visual-prev"></button>
+        <button class="sw-visual-next"></button>
+        <!-- 콘트롤 -->
+        <div class="sw-visual-control">
+          <!-- Pagination -->
+          <div class="sw-visual-pg"></div>
+        </div>
+      </div>
     </section>
     <!-- site-map -->
     <section class="site-map">
-      <div class="inner">
-
+      <div class="stmbk">
+        <div class="stm">
+        </div>
       </div>
     </section>
     <!-- benefits -->
     <section class="benefits">
       <div class="inner">
+        <div class="benefitcontainer">
+          <div class="item1">
+            <h2 class="txtbox">
+              <span class="txtc"><span class="line"></span>이달의 구매혜택</span>
+            </h2>
+            <h7>특별한 혜택과 함께 일상에 진정한 즐거움을 더하세요.</h7>
+          </div>
 
+          <div class="item2">
+            <h2 class="txtbox">
+              <span class="txtc"><span class="line"></span>구매후기 이벤트</span>
+            </h2>
+            <h7>내 SNS에 구매후기 작성하고,한정판 굿즈 받기</h7>
+            <div class="itemboxp">
+              <img src="images/benefit2.jpg" alt="">
+            </div>
+          </div>
+          <div class="item3">
+            <h2 class="txtbox">
+              <span class="txtc"><span class="line"></span>레이싱 히스토리</span>
+            </h2>
+            <h7>2시즌 연속 내구레이스 챔피언 | 통산 20회 우승 금자탑</h7>
+          </div>
+        </div>
       </div>
     </section>
     <!-- vestgoods -->
     <section class="vest-goods">
       <div class="inner">
-
+        <div class="goodstxtbox">
+          <strong>SUZUKI MOTORCYCLE</strong>
+          <p>스즈키 인기모델</p>
+        </div>
+        <div class="swiper-container sw-goods">
+          <!-- 슬라이드 내용 -->
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#" class="sw-goods-1"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="sw-goods-2"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="sw-goods-3"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="sw-goods-4"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="sw-goods-5"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="sw-goods-6"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="sw-goods-7"></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="sw-goods-8"></a>
+            </div>
+          </div>
+          <!-- 슬라이더 좌우 버튼 -->
+          <button class="sw-goods-prev"></button>
+          <button class="sw-goods-next"></button>
+        </div>
       </div>
     </section>
     <!-- news-event -->
     <section class="news-event">
       <div class="inner">
+        <div class="news-txt-tbox">
+          <strong>NEWS & EVENT</strong>
+          <p>뉴스 & 이벤트</p>
+        </div>
 
-      </div>
-    </section>
-    <!-- footer -->
-    <footer>
-      <div class="inner">
+        <div class="newscontainer">
+          <div class="newsitem1">
+            <a href="#" class="newscard">
+              <div class="newsfic1"></div>
+              <div class="cardtxt">
+                <span>2023년형 GSX-R125,GSX-S125 사전 예약 구매 실시</span>
+                <p>2022-07-07</p>
+              </div>
+            </a>
+          </div>
 
+          <div class="newsitem2">
+            <a href="#" class="newscard">
+              <div class="newsfic2"></div>
+              <div class="cardtxt">
+                <span>스즈키코리아, 스즈키 라이딩 데이 행사 성황리 종료</span>
+                <p>2022-06-03</p>
+              </div>
+            </a>
+          </div>
+          <div class="newsitem3">
+            <a href="#" class="newscard">
+              <div class="newsfic3"></div>
+              <div class="cardtxt">
+                <span>스즈키 모터사이클 강릉점 신규 오픈</span>
+                <p>2022-06-01</p>
+              </div>
+            </a>
+          </div>
+          <div class="newsitem4">
+            <a href="#" class="newscard">
+              <div class="newsfic4"></div>
+              <div class="cardtxt">
+                <span>스즈키 내구레이스팀 SERT,2022시즌 월드 내구레이스 개막전 챔피언 등극</span>
+                <p>2022-04-21</p>
+              </div>
+            </a>
+          </div>
+          <div class="newsitem5">
+            <a href="#" class="newscard">
+              <div class="newsfic5"></div>
+              <div class="cardtxt">
+                <span>[모토GP] 팀 스즈키 엑스타 알렉스 린스 준우승, 스즈키 레이싱 도합 500번째 포디움 자축</span>
+                <p>2022-04-13</p>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
-    </footer>
+  </div>
+  </section>
+  <!-- footer -->
+  <footer>
+    <div class="inner">
+      <div class="footer-top">
+        <div class="footerimg"></div>
+        <div class="footertxt">
+          <span><a href="#">이용약관</a></span>
+          <span><a href="#">개인정보취급방침</a></span>
+          <span><a href="#">인트라넷</a></span>
+          <span><a href="#">고객센터</a></span>
+        </div>
+        <a href=""><div class="footer-right"></div></a>
+      </div>
+      <div class="footer-bottom">
+        <div class="bottom-txt">
+          <p>COPYRIGHT ⓒ SUZUKI CMC., ALL RIGHTS RESERVED.<br>
+            <strong>웹사이트에서 제공되는 모든 컨텐츠는 저작권의 보호를 받으며, 내용 중 정확하지 않은 정보가 포함될 수 있습니다.</strong>
+          </p>
+          <div class="messegi">
+            <p>㈜스즈키씨엠씨 ㅣ 대표자명 강정일 ㅣ 경기도 광주시 오포읍 봉골길 195 ㅣ 사업자등록번호 126-81-90763 ㅣ 통신판매업신고 제 2006-00324호 ㅣ ℡ 031-767-3355 ㅣFax 031-768-6008 | 개인정보책임자 강택환</p> 
+          </div>
+        </div>
+        <div class="bottom-right">
+          <div class="gnb-icon">
+            <span><a href="#"><i class="fa-brands fa-facebook-f"></i></a></span>
+            <span><a href="#"><i class="fa-brands fa-instagram"></i></a></span>
+            <span><a href="#"><i class="fa-solid fa-comment-sms"></i></a></span>
+            <span><a href="#"><i class="fa-brands fa-youtube"></i></a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   </div>
 

@@ -1,0 +1,5 @@
+
+.icon-basket:before { content: '\e800'; } /* '' */
+.icon-mobile:before { content: '\e801'; } /* '' */
+.icon-user-plus:before { content: '\f234'; } /* '' */
+.icon-user-circle-o:before { content: '\f2be'; } /* '' */
